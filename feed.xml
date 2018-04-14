@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>epl-essential-podcasts-lessons</title>
+    <title>e-p-l-essential-podcasts-lessons</title>
     <link href="https://therealmccoy.github.io/essential-podcast-lessons/feed.xml" rel="self" />
     <link href="https://therealmccoy.github.io/essential-podcast-lessons" />
-    <updated>2018-03-31T06:23:31+05:30</updated>
+    <updated>2018-04-14T08:09:47+05:30</updated>
     <author>
         <name>abhishek rai</name>
     </author>
     <id>https://therealmccoy.github.io/essential-podcast-lessons</id>
 
+    <entry>
+        <title>Notes - Anne Wojcicki on How to Build the Future</title>
+        <author>
+            <name>abhishek rai</name>
+        </author>
+        <link href="https://therealmccoy.github.io/essential-podcast-lessons/notes-anne-wojcicki-on-how-to-build-the-future/"/>
+        <id>https://therealmccoy.github.io/essential-podcast-lessons/notes-anne-wojcicki-on-how-to-build-the-future/</id>
+            <category term="ycombinator"/>
+            <category term="podcasts"/>
+            <category term="lessons"/>
+
+        <updated>2018-04-14T08:08:24+05:30</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p class="msg msg--info">***************************************************************************************<br>***************************************************************************************<br><strong>File Name:</strong> Anne-Wojcicki-How-To-Build-Future-14042018 <br><strong>About:</strong> Notes from interview of <a href="https://twitter.com/annewoj23">Ms.Anne Wojcicki</a>, founder of <a href="https://www.23andme.com/en-int/">23andme</a>; with <a href="https://twitter.com/sama">Mr.Sam Altman</a>, President of <a href="http://www.ycombinator.com/about/">Y Combinator.</a> <br> <strong>Version 1:</strong> 14th April 2018<br> <strong>Link to Podcast:</strong> <a href="https://blog.ycombinator.com/anne-wojcicki-on-how-to-build-the-future/">Anne Wojcicki on How to Build the Future</a><br><strong>Author:</strong> Abhishek Rai<br><strong>Date:</strong> 14th April 2018<br><strong>Day:</strong> Saturday<br>***************************************************************************************<br>***************************************************************************************<br><br></p>
+<blockquote>
+<p><br>1. "Incentives are superpowers" -  Charlie Munger </p>
+</blockquote>
+<p><br>2. Founder(s) should be wanting the solution they are building for others, personally. <code>#key #criteria</code><br><br>3. Great companies are usually founded when founder(s) can see the intersection of two different trends, long before others can do so. <code>#prediction #success</code><br><br>4. Health is both about GENES and ENVIRONMENT.  <code>#random</code><br><br>5. People love vision and outline and founders need to outline them. <code>#implement</code><br><br>6. When going through the proverbial "trough of sorrow", don't wallow on today but instead focus on what it could become in next few years to come. <code>#implement</code></p>
+<p class="msg msg--success"><code></code><br><br>7. It is important to get feedback from customers in real time. <code>#customer #success</code></p>
+<p>8. Founders should be great at show-casing the value of their product and make sure that customers understand the proposition. <code>#customers #success #implement</code><br><br>9.Hiring right talent is the key.<code> #key</code><br><br>10. Humility is a key component of a right hire's character. A right hire would be open to criticism, feedback and learning from others. <code>#key #hiring</code></p>
+<p class="msg msg--success"><br>11. Hiring wrong persons in leadership position, runs the risk of sinking the ship.<code> #hiring</code></p>
+<p>12. The guide to finding the smart people is find who love to questiona and argue the status quo. <code>#key #hiring</code></p>
+<p class="msg msg--success"><code></code><br><br>13. Founder of a company operating in a regulated space would require a lot of (efficient) communicating to be done. <code>#learn</code></p>
+<p><br>14. Founders should learn the style, form and ways of communicating things (efficiently). <code>#learn</code><br><br>15. The great opportunity for founders is to show-case the bigger picture to the regulators, as they love seeing that. <code>#success #learn #implement</code></p>
+<blockquote>
+<p><br>16. "Best companies are remarkably steadfast" - Sam Altman</p>
+</blockquote>
+<p><br>17. Stick with your company/product. Persistence is the key. <code>#learn #implement #key #success</code><br><br>18. It takes almost a decade to see the consequence of your actions (true for both good/bad). <code>#key #success</code><br><br>19. Trust in compund growth and stick with it. Super consistency will help you beat many others in the long run. <code>#implement</code></p>
+<p class="post__lead msg msg--highlight "><br>20. "Overnight success is ten years of persistence" - Anne Wojcicki<br><br><br><br></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About the EPL - Essential Podcast Lessons</title>
         <author>
