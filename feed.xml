@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>e-p-l-essential-podcasts-lessons</title>
+    <title>E P L - Essential Podcasts Lessons</title>
     <link href="https://therealmccoy.github.io/essential-podcast-lessons/feed.xml" rel="self" />
     <link href="https://therealmccoy.github.io/essential-podcast-lessons" />
-    <updated>2018-05-28T08:11:12+05:30</updated>
+    <updated>2019-01-28T12:49:30+05:30</updated>
     <author>
         <name>abhishek rai</name>
     </author>
@@ -21,11 +21,16 @@
             <category term="podcasts"/>
             <category term="lessons"/>
 
-        <updated>2018-05-28T08:10:57+05:30</updated>
-            <summary></summary>
+        <updated>2019-01-28T12:49:06+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://therealmccoy.github.io/essential-podcast-lessons/media/posts/2/" alt="Twitter Profile Page Of Ms.Anne Wojcicki" />
+                    *************************************************************************************** *************************************************************************************** File Name: Anne-Wojcicki-How-To-Build-Future-14042018 About: Notes from interview of Ms.Anne Wojcicki, founder of 23andme; with Mr.Sam Altman, President of Y Combinator. Version 1: 14th April 2018 Link to Podcast: Anne Wojcicki on How to Build the Future Author: Abhishek Rai Date: 14th April 2018 Day:&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://therealmccoy.github.io/essential-podcast-lessons/media/posts/2/" alt="" />
+                    <img src="https://therealmccoy.github.io/essential-podcast-lessons/media/posts/2/" alt="Twitter Profile Page Of Ms.Anne Wojcicki" />
                 <p class="msg msg--info">***************************************************************************************<br>***************************************************************************************<br><strong>File Name:</strong> Anne-Wojcicki-How-To-Build-Future-14042018 <br><strong>About:</strong> Notes from interview of <a href="https://twitter.com/annewoj23">Ms.Anne Wojcicki</a>, founder of <a href="https://www.23andme.com/en-int/">23andme</a>; with <a href="https://twitter.com/sama">Mr.Sam Altman</a>, President of <a href="http://www.ycombinator.com/about/">Y Combinator.</a> <br> <strong>Version 1:</strong> 14th April 2018<br> <strong>Link to Podcast:</strong> <a href="https://blog.ycombinator.com/anne-wojcicki-on-how-to-build-the-future/">Anne Wojcicki on How to Build the Future</a><br><strong>Author:</strong> Abhishek Rai<br><strong>Date:</strong> 14th April 2018<br><strong>Day:</strong> Saturday<br>***************************************************************************************<br>***************************************************************************************<br><br></p>
 <blockquote>
 <p><br>1. "Incentives are superpowers" -  Charlie Munger </p>
@@ -57,7 +62,12 @@
             <category term="lessons"/>
 
         <updated>2018-03-27T09:05:14+05:30</updated>
-            <summary></summary>
+            <summary>
+                <![CDATA[
+                        <img src="https://therealmccoy.github.io/essential-podcast-lessons/media/posts/1/lights-night-unsharp-blured.jpg" alt="Essential Podcast Lessons - Essential lessons from top podcasts of the world" />
+                    Podcasts have become very popular in last years, reaching millions of listeners daily. People listen to their favourite podcasts, while commuting, at office or at home; virtually at every concievable place. While many podcasts have a transcript available to enable jotting down, important points and&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://therealmccoy.github.io/essential-podcast-lessons/media/posts/1/lights-night-unsharp-blured.jpg" alt="Essential Podcast Lessons - Essential lessons from top podcasts of the world" />
