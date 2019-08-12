@@ -1,25 +1,91 @@
 (function ($) {
-    // Off canvas menu
-    $(function ($) {
-        var transformer = $('.js-content'),
-            menuToggle = $('.js-menu-toggle'),
-            menuClose = $('.js-menu__close');
-
-        menuToggle.on('click', function (event) {
-            event.preventDefault();
-            transformer.toggleClass('is-open');
+    // Dropdown menu
+    $(function () {
+        $('.js-navbar__toggle').on('click', function () {
+            $('.js-navbar').toggleClass('is-opened');
+            $('.js-navbar__toggle').attr('aria-expanded', $('.js-navbar').hasClass('is-opened'));
+            return false;
         });
 
-        menuClose.on('click', function (event) {
-            event.preventDefault();
-            menuToggle.trigger('click');
+        $('.js-navbar a').each(function(i, link) {
+            link = $(link);
+
+            link.on('click', function(e) {
+                if(
+                    link.parent().hasClass('has-submenu') &&
+                    $('.js-navbar__toggle').attr('aria-expanded') === 'true' &&
+                    link.parent().attr('aria-expanded') !== 'true'
+                ) {
+                    e.preventDefault();
+                    link.parent().attr('aria-expanded', 'true');
+                }
+            });
         });
     });
 
-    // Sticky top bar
+    // iOS :hover fix
+    document.addEventListener("touchend", function() {}); 
+
+    // Mainmenu improvements
     $(function ($) {
-        var menu = $('.is-sticky');
-        if (!menu.length) {
+        var mainmenu = $('.navbar__menu');
+        var level0 = mainmenu.children('li');
+
+        var setSubmenusPosition = function(submenus) {
+            if(!submenus.length) {
+                return;
+            }
+
+            submenus.each(function(i, submenu) {
+                submenu = $(submenu);
+
+                submenu.parent().on('mouseenter', function() {
+                    setTimeout(function() {
+                        var diff = $(window).outerWidth() - (submenu.offset().left + submenu.outerWidth());
+
+                        if(diff < 0) {
+                            submenu.addClass('navbar__submenu--reversed');
+                        }
+                    }, 50);
+                });
+            });
+
+            submenus.children('li').children('.navbar__submenu').each(function(i, submenus) {
+                setSubmenusPosition($(submenus));
+            });
+        };
+
+        if(level0.length) {
+            var level1 = level0.children('.navbar__submenu');
+
+            if(level1.length) {
+                level1.each(function(i, submenu) {
+                    submenu = $(submenu);
+
+                    submenu.parent().on('mouseenter', function() {
+                        setTimeout(function() {
+                            var diff = $(window).outerWidth() - (submenu.offset().left + submenu.outerWidth());
+
+                            if(diff < 0) {
+                                submenu.css('margin-left', (diff - 10) + "px");
+                            }
+                        }, 50);
+                    });
+
+                    submenu.children('li').children('.navbar__submenu').each(function(i, submenus) {
+                        setSubmenusPosition($(submenus));
+                    });
+                });
+            }
+        }
+    });
+
+
+    // Sticky menu animation
+    $(function ($) {
+        var menu = $('.js-top');
+
+        if (!menu.length || !menu.hasClass('is-sticky')) {
             return;
         }
 
@@ -36,11 +102,22 @@
                 menuTop = -menuHeight;
             }
 
-            if (menuTop > 0) {
+            if (menuTop >= 0) {
+                menuTop = 0;
+            }
+
+            if (currentScroll <= 100) {
+                menu.removeClass('has-bg');
+            } else {
+                menu.addClass('has-bg');
+            }
+
+            if (currentScroll <= 30) {
                 menuTop = 0;
             }
 
             menu.css('top', menuTop + 'px');
+
             previousScroll = currentScroll;
         });
     });
@@ -80,5 +157,6 @@
             return !!popup;
         }
     });
+
 
 })(jQuery);
