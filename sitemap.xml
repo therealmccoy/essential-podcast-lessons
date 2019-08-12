@@ -1,11 +1,23 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://therealmccoy.github.io/essential-podcast-lessons/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://therealmccoy.github.io/essential-podcast-lessons/</loc>
 </url>
 <url>
 <loc>https://therealmccoy.github.io/essential-podcast-lessons/about-the-epl-essential-podcast-lessons/</loc>
+<lastmod>2018-03-27T09:05:14+05:30</lastmod>
+<image:image>
+<image:loc>https://therealmccoy.github.io/essential-podcast-lessons/media\posts\1/lights-night-unsharp-blured.jpg</image:loc>
+<image:title><![CDATA[Essential Podcast Lessons - Essential lessons from top podcasts of the world]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://therealmccoy.github.io/essential-podcast-lessons/notes-anne-wojcicki-on-how-to-build-the-future/</loc>
+<lastmod>2019-02-16T11:05:40+05:30</lastmod>
+<image:image>
+<image:loc>https://therealmccoy.github.io/essential-podcast-lessons/media\posts\2/Screenshot-2018-4-14-Anne-Wojcicki-annewoj23-Twitter.png</image:loc>
+<image:title><![CDATA[Twitter Profile Page Of Ms.Anne Wojcicki]]></image:title>
+</image:image>
 </url>
 </urlset>
